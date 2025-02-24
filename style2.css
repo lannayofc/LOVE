@@ -1,0 +1,137 @@
+/* ========================
+   ESTILO DA NOVA PÁGINA (HTML2)
+   ===================== */
+
+/* Corpo da página */
+body {
+    background-color: #f8c9d1; /* Rosa bebê, igual à página inicial */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================
+   Barra de navegação com meio círculo
+   ===================== */
+.navbar {
+    background-color: #9c1c1c;
+    color: white;
+    padding: 30px 0; /* Aumenta a altura para um efeito mais visível */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom-left-radius: 50% 60px; /* Criando um meio círculo */
+    border-bottom-right-radius: 50% 60px; /* Criando um meio círculo */
+}
+
+/* Estilo para o conteúdo principal */
+.main-content {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Seção de introdução (hero section) */
+.hero {
+    margin-top: 60px; /* Espaço para a barra de navegação */
+    text-align: center;
+}
+
+.main-title {
+    font-size: 36px;
+    color: #9c1c1c;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 20px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Seção da história */
+.story {
+    text-align: left;
+    margin-top: 30px;
+}
+
+/* Destaque para "Era uma vez..." */
+.highlight {
+    font-size: 28px;
+    font-weight: bold;
+    color: #9c1c1c;
+    margin-bottom: 20px;
+}
+
+/* Estilo do botão de voltar */
+#backButton {
+    background-color: #f88a9e;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+    background-color: #db7575;
+}
+
+/* Ajustes para as imagens com texto envolvente */
+.image-container {
+    display: block;
+    margin: 20px auto; /* Centraliza as imagens */
+    width: 60%; /* Ajuste a largura conforme necessário */
+    text-align: center; /* Alinha as imagens no centro */
+}
+
+.image-container img {
+    width: 65%;
+    border-radius: 8px;
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin: 0 auto; /* Centraliza a imagem dentro do container */
+}
+
+.story p {
+    clear: both;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Ajustes para telas menores */
+@media screen and (max-width: 768px) {
+    .navbar {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .intro-text {
+        font-size: 18px;
+    }
+
+    #backButton {
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+
+    .image-container {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,99 @@
+/* ========================
+   ESTILO DA PÁGINA INICIAL
+   ======================== */
+   body {
+    background-color: #f8c9d1; /* Rosa bebê */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Garantir que o corpo ocupe toda a tela */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o conteúdo */
+}
+
+/* Contêiner geral (lado a lado para o GIF e o texto) */
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* Estilo do GIF */
+.welcome-gif {
+    width: 70%;
+    max-width: 500px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+/* Contêiner de texto e botão */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Texto de introdução */
+.message-intro {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.message-intro h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #9c1c1c;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #f8a1b3;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #f88a9e;
+    transform: scale(1.05);
+}
+
+/* Estilo para ocultar o texto */
+.hidden {
+    display: none;
+}
+
+/* Estilo para o botão em estado de carregamento */
+button:disabled {
+    background-color: #db7575;
+    cursor: not-allowed;
+}
+
+/* Ajustes para telas menores */
+@media screen and (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome-gif {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .text-container {
+        align-items: center;
+    }
+    .message-intro {
+        text-align: center;
+    }
+}
+
