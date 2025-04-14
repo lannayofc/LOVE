@@ -8,7 +8,7 @@ O site narra a trajetória de um casal através dos personagens simbólicos **Co
 ## 🌐 Demonstração
 
 Acesse o site completo aqui:  
-[**https://lannayofc.github.io/LOVE/**](https://lannayofc.github.io/LOVE/)
+[**LOVE**](https://lannayofc.github.io/LOVE/)
 
 ---
 
@@ -38,7 +38,7 @@ Além de ser um presente digital, ele também demonstra habilidades em estrutura
 
 ## 📲 Como visualizar
 
-1. Acesse o link: [https://lannayofc.github.io/LOVE/](https://lannayofc.github.io/LOVE/)
+1. Acesse o link: [LOVE](https://lannayofc.github.io/LOVE/)
 2. O site é responsivo e pode ser visualizado em qualquer navegador moderno, tanto em desktop quanto em dispositivos móveis.
 
 ---
