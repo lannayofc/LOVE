@@ -50,4 +50,4 @@ Este repositório também serve como portfólio para projetos criativos com foco
 
 ---
 
-**"Feito com amor, códigos e criatividade."**
+>**"Feito com amor, códigos e criatividade."**
